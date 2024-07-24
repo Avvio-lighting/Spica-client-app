@@ -1,0 +1,290 @@
+{
+    "landingbg": {
+        "imagesAlt": {
+            "one": "Solarzellenbild 1",
+            "two": "Solarzellenbild 2",
+            "three": "Solarzellenbild 3",
+            "four": "Solarzellenbild 4"
+        }
+    },
+    "home": {
+        "landing": {
+            "heading": "Die Zukunft der Solarbeleuchtung",
+            "description": "Unsere Hingabe an Lösungen für Solarbeleuchtung führt zu einer saubereren, gesünderen Welt. Begleiten Sie uns auf dem Weg zu einer Zukunft, in der solarbetriebene Lampen die Art und Weise revolutionieren, wie wir unsere Lebensräume erhellen.",
+            "see-our-products": "Unsere Produkte ansehen",
+            "contact-us": "Kontaktieren Sie uns"
+        },
+        "about": {
+            "heading": "Über uns",
+            "paragraph": "Spica Solar Lighting ist ein führender Hersteller von hochwertigen solarbetriebenen Leuchten. Wir bieten robuste, zuverlässige Lösungen für Solarbeleuchtung mit erstklassigen Komponenten. Unsere Produkte sind für 8-10 Jahre Betrieb ausgelegt und haben eine Garantie von 5-10 Jahren. Sie funktionieren hervorragend bei extremen Temperaturen, von -40°C in Russland bis zu 70°C im Nahen Osten. Unsere Solarmodule können vorhandene Straßenbeleuchtungsmasten nachrüsten und eignen sich für Verkehrsampeln und Kameramasten.",
+            "read-more": "Mehr lesen"
+        },
+        "innovations": {
+            "heading": "Unsere Innovationen",
+            "arr": {
+                "one": {
+                    "heading": "Bis zu 10 Jahre ohne Wartung",
+                    "paragraph": "Dies ist ein Platzhaltertext."
+                },
+                "two": {
+                    "heading": "Plug & Play",
+                    "paragraph": "Dies ist ein Platzhaltertext."
+                },
+                "three": {
+                    "heading": "Widerstandsfähig gegen extreme Temperaturen",
+                    "paragraph": "Dies ist ein Platzhaltertext."
+                },
+                "four": {
+                    "heading": "Bis zu 7 Regentage",
+                    "paragraph": "Dies ist ein Platzhaltertext."
+                },
+                "five": {
+                    "heading": "Drahtlose Konnektivität",
+                    "paragraph": "Dies ist ein Platzhaltertext."
+                },
+                "six": {
+                    "heading": "Patentierte Technologie",
+                    "paragraph": "Dies ist ein Platzhaltertext."
+                }
+            }
+        },
+        "latest-products": {
+            "heading": "Unsere neuesten Produkte",
+            "related": "Ähnliche Produkte",
+            "sub-heading": "Einige unserer neuesten Produkte, die in den letzten Wochen eingetroffen sind.",
+            "see-product": "Produkt anzeigen"
+        },
+        "projects": {
+            "heading": "Unsere Projekte",
+            "sub-heading": "Tausende von solarbetriebenen Leuchten weltweit geliefert."
+        },
+        "blog": {
+            "heading": "Blog",
+            "see-all": "Alle anzeigen",
+            "spica-solar": "Spica Solar Lighting",
+            "min-read": "Minuten Lesezeit",
+            "tags": {
+                "1": "Solarenergie",
+                "2": "Lösungen",
+                "3": "Energie"
+            }
+        }
+    },
+    "layout": {
+        "nav": {
+            "home": "Startseite",
+            "about": "Über uns",
+            "projects": "Projekte",
+            "categories": "Kategorien",
+            "blog": "Blog",
+            "contact-us": "Kontakt",
+            "all-categories": "Alle"
+        },
+        "desc": "Bleiben Sie mit unserem Green Horizon Newsletter auf dem Laufenden, in dem wir kompakte Einblicke in die neuesten Lösungen für grüne Energie liefern.",
+        "rights": "© 2024 Spica Solar Lighting. Alle Rechte vorbehalten.",
+        "imgsAlt": {
+            "logo": "Logo",
+            "search": "Suchsymbol",
+            "change-lang": "Sprache ändern",
+            "en": "USA-Flagge",
+            "de": "Deutschlandflagge",
+            "es": "Spanienflagge",
+            "fr": "Frankreichflagge"
+        },
+        "pages": "Seiten"
+    },
+    "about": {
+        "landing": {
+            "heading": "Über Spica Solar Lighting",
+            "paragraph": "Spica Solar Lighting ist ein führender Hersteller und Lieferant von hochwertigen solarbetriebenen Beleuchtungskörpern. Wir widmen uns dem Design, der Produktion und dem Angebot von hochwertiger Solar-Straßenbeleuchtung, Solar-Landschaftsbeleuchtung und solarintegrierten Masten. Die überlegene Qualität wird durch herausragende industrielle Designfähigkeit und innovatives, klares Designprinzip gewährleistet."
+        },
+        "work-descreption": {
+            "heading": "Engagiert für eine nachhaltige Zukunft",
+            "paragraph-1": "Wir machen keine Kompromisse bei der Qualität; wir sind bestrebt, hochwertige Solarbeleuchtung anzubieten, die ihr Geld wert ist.",
+            "paragraph-2": "Wir haben unsere Produkte so entworfen und gebaut, dass sie zehn Jahre lang funktionieren und bieten eine Garantie von fünf bis zehn Jahren. Ob es minus 40 Grad in Russland oder bis zu 70 Grad in Dubai, Saudi-Arabien oder Kuwait sind, unsere Leuchten werden hervorragend funktionieren und leisten.",
+            "values": {
+                "one": "Wir entwerfen",
+                "two": "Bauen",
+                "three": "Hohe Qualität",
+                "four": "Solar Lösungen"
+            },
+            "imageAlt": "Solarzelle"
+        }
+    },
+    "contacts": {
+        "landing": {
+            "heading": "Spica Solar Lighting Kontaktdetails"
+        },
+        "office-details": {
+            "heading": "China Bürodetails",
+            "email": {
+                "heading": "E-Mail",
+                "paragraph": "Wir antworten innerhalb von 2 Arbeitstagen",
+                "value": "sales@spicasolarlighting.com"
+            },
+            "phone": {
+                "heading": "Telefon",
+                "paragraph": "Wir sind von Montag bis Freitag von 8 Uhr bis 17 Uhr erreichbar",
+                "value": "(+86) 13610464745"
+            },
+            "address": {
+                "heading": "Hauptquartier",
+                "paragraph": "Besuchen Sie uns in unserem Büro",
+                "value": "3F, No. 1-4# Tongfukang Industriepark, Baoan Bezirk, Shenzhen, China"
+            },
+            "imagesAlt": {
+                "email": "E-Mail",
+                "phone": "Telefon",
+                "location": "Standort",
+                "map": "Karte"
+            }
+        }
+    },
+    "contac-us-form": {
+        "heading": "Kontaktieren Sie uns",
+        "sub-heading": "Wir sind hier, um Ihnen zu helfen, den ersten Schritt zu einer grüneren Wahl zu machen.",
+        "full-name": "Vollständiger Name",
+        "email": "E-Mail",
+        "next": "Weiter",
+        "message-form": {
+            "enter-otp": "Geben Sie das OTP ein, das wir an Ihre E-Mail gesendet haben",
+            "edit": "Bearbeiten",
+            "subject": "Betreff",
+            "message": "Nachricht",
+            "cancel": "Abbrechen",
+            "submit": "Absenden"
+        }
+    },
+    "categories": {
+        "landing": {
+            "heading": "Spica Solarbeleuchtung Kategorien"
+        },
+        "sidebar": {
+            "categories": "Kategorien",
+            "all-categories": "Alle Kategorien"
+        },
+        "show-more": "Mehr anzeigen",
+        "sort-by": "Sortieren nach"
+    },
+    "projects": {
+        "landing": {
+            "heading": "Unsere Projekte"
+        },
+        "learn-more": "Mehr erfahren"
+    },
+    "project": {
+        "descreption": "Unser Engagement für grüne Energie ebnet den Weg zu einem saubereren, gesünderen Planeten. Begleiten Sie uns auf einer Reise in eine Zukunft, in der saubere, erneuerbare Energiequellen die Art und Weise verändern, wie wir unser Leben mit Energie versorgen."
+    },
+    "product": {
+        "info": {
+            "flux": "Lichtstrom",
+            "lumens": "Lumen",
+            "producer": "HERSTELLER",
+            "category": "KATEGORIE",
+            "download": "Datenblatt herunterladen"
+        },
+        "bread-crumb": {
+            "home": "Startseite",
+            "category": "Kategorie"
+        },
+        "product-info": "Produktinformationen",
+        "features": "Wichtige Merkmale",
+        "led-luminare": {
+            "heading": "LED Leuchte",
+            "model": "Modell",
+            "power": "Leistung",
+            "ler": "Realer Leuchtenwirkungsgrad (LER)",
+            "flux": "Lichtstrom *(lm)",
+            "light": "Lichtverteilung",
+            "cct": "Korrelierte Farbtemperatur",
+            "lcm": "LED-Chip-Hersteller",
+            "watt": "Leistung",
+            "size": "Größe"
+        },
+        "solar-module": {
+            "heading": "Solarmodul",
+            "brand": "Technik/Marke",
+            "power": "Leistung (W)",
+            "voltage": "Spannung (V)",
+            "lifespan": "Lebensdauer"
+        },
+        "remarks": {
+            "heading": "Bemerkungen",
+            "pole-body": "Mastkörper",
+            "pole-height": "Masthöhe",
+            "perday": "Tägliche Beleuchtungsdauer",
+            "rainy": "Regentag",
+            "mip": "Mechanischer Aufprallschutz",
+            "temperature": "Betriebstemperatur",
+            "humadity": "Maximale Luftfeuchtigkeit",
+            "warranty": "Garantie",
+            "ip": "IP-Schutzart"
+        },
+        "battery": {
+            "heading": "Batterie",
+            "location": "Standort",
+            "tect": "Technologie",
+            "capacity": "Kapazität (Wh)",
+            "volt": "Nennspannung",
+            "lifespan": "Lebensdauer"
+        }
+    },
+    "datasheet": {
+        "step-one": {
+            "heading": "Füllen Sie Ihre Daten aus, um herunterzuladen",
+            "name": "Ihr Name",
+            "email": "Ihre E-Mail",
+            "download": "Datenblatt herunterladen",
+            "cancel": "Abbrechen"
+        },
+        "step-two": {
+            "heading": "Geben Sie den an Sie gesendeten OTP ein",
+            "subheading": "Wir haben Ihnen einen OTP per E-Mail gesendet",
+            "reason": "um Ihre Daten zu verifizieren",
+            "confirm": "Bestätigen",
+            "resend": "OTP erneut senden",
+            "edit": "Bearbeiten",
+            "cancel": "Abbrechen"
+        },
+        "step-three": {
+            "success": "Ihre E-Mail ist verifiziert",
+            "home": "Zurück zur Startseite",
+            "open": "Datenblatt öffnen",
+            "close": "Schließen"
+        }
+    },
+    "search": {
+        "no-products": "Keine Produkte gefunden. Sehen Sie sich unsere Projekte oder Blogs an. Drücken Sie Enter."
+    },
+    "search-page": {
+        "heading": "Suchergebnisse",
+        "view": {
+            "all": "Alle",
+            "products": "Produkte",
+            "projects": "Projekte",
+            "blogs": "Blogs"
+        },
+        "notfound": {
+            "products": "Keine Produkte gefunden",
+            "projects": "Keine Projekte gefunden",
+            "blogs": "Keine Blogs gefunden"
+        },
+        "more": "Mehr Anzeigen"
+    },
+    "blogs": {
+        "heading": "Spica Solarbeleuchtungsblog",
+        "more": "Mehr Anzeigen"
+    },
+    "subscribe": {
+        "step1": {
+            "heading": "Ihre Quelle für Solarbeleuchtungs-Updates",
+            "name": "Name",
+            "email": "E-Mail",
+            "get": "Kontakt Aufnehmen"
+        },
+        "step2": {
+            "heading": "Überprüfen Sie Ihre Identität mit dem per E-Mail gesendeten OTP",
+            "sub": "Abonnieren"
+        }
+    }
+}

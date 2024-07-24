@@ -1,0 +1,290 @@
+{
+    "landingbg": {
+        "imagesAlt": {
+            "one": "Image de cellule solaire 1",
+            "two": "Image de cellule solaire 2",
+            "three": "Image de cellule solaire 3",
+            "four": "Image de cellule solaire 4"
+        }
+    },
+    "home": {
+        "landing": {
+            "heading": "L'avenir de l'éclairage solaire",
+            "description": "Notre engagement envers les solutions d'éclairage solaire ouvre la voie vers un monde plus propre et plus sain. Rejoignez-nous pour avancer vers un avenir où les lampes solaires révolutionnent la manière dont nous illuminons nos vies et nos environnements.",
+            "see-our-products": "Voir nos produits",
+            "contact-us": "Contactez-nous"
+        },
+        "about": {
+            "heading": "À propos de nous",
+            "paragraph": "Spica Solar Lighting est un fabricant de premier plan de luminaires solaires de haute qualité. Nous proposons des solutions d'éclairage solaire robustes et fiables en utilisant des composants de première qualité. Nos produits sont conçus pour une durée de fonctionnement de 8 à 10 ans et bénéficient d'une garantie de 5 à 10 ans. Ils fonctionnent parfaitement dans des températures extrêmes, de -40°C en Russie à 70°C au Moyen-Orient. Nos modules solaires peuvent être adaptés aux poteaux d'éclairage existants et conviennent aux feux de circulation et aux poteaux de caméra.",
+            "read-more": "Lire la suite"
+        },
+        "innovations": {
+            "heading": "Nos Innovations",
+            "arr": {
+                "one": {
+                    "heading": "Jusqu'à 10 ans sans maintenance",
+                    "paragraph": "Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif."
+                },
+                "two": {
+                    "heading": "Plug & Play",
+                    "paragraph": "Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif."
+                },
+                "three": {
+                    "heading": "Résistance aux températures extrêmes",
+                    "paragraph": "Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif."
+                },
+                "four": {
+                    "heading": "Jusqu'à 7 jours de pluie",
+                    "paragraph": "Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif."
+                },
+                "five": {
+                    "heading": "Connectivité sans fil",
+                    "paragraph": "Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif."
+                },
+                "six": {
+                    "heading": "Technologie brevetée",
+                    "paragraph": "Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif. Ceci est un texte fictif."
+                }
+            }
+        },
+        "latest-products": {
+            "heading": "Nos Derniers Produits",
+            "related": "Produits Connexes",
+            "sub-heading": "Certains de nos nouveaux produits arrivés ces dernières semaines.",
+            "see-product": "Voir le produit"
+        },
+        "projects": {
+            "heading": "Nos Projets",
+            "sub-heading": "Des milliers de luminaires solaires fournis à l'échelle mondiale."
+        },
+        "blog": {
+            "heading": "Blog",
+            "see-all": "Voir tout",
+            "spica-solar": "Spica Solar Lighting",
+            "min-read": "Minutes de lecture",
+            "tags": {
+                "1": "Énergie Solaire",
+                "2": "Solutions",
+                "3": "Énergie"
+            }
+        }
+    },
+    "layout": {
+        "nav": {
+            "home": "Accueil",
+            "about": "À propos de nous",
+            "projects": "Projets",
+            "categories": "Catégories",
+            "blog": "Blog",
+            "contact-us": "Contactez-nous",
+            "all-categories": "Tous"
+        },
+        "desc": "Restez informé avec notre newsletter Green Horizon, où nous vous livrons des insights sur les dernières solutions en énergie verte.",
+        "rights": "© 2024 Spica Solar Lighting. Tous droits réservés.",
+        "imgsAlt": {
+            "logo": "Logo",
+            "search": "Icône de recherche",
+            "change-lang": "Changer de langue",
+            "en": "Drapeau des États-Unis",
+            "de": "Drapeau de l'Allemagne",
+            "es": "Drapeau de l'Espagne",
+            "fr": "Drapeau de la France"
+        },
+        "pages": "Pages"
+    },
+    "about": {
+        "landing": {
+            "heading": "À propos de Spica Solar Lighting",
+            "paragraph": "Spica Solar Lighting est un fabricant et fournisseur leader de luminaires solaires de haute qualité. Nous nous consacrons à la conception, la production et la fourniture d'éclairages solaires extérieurs de haute qualité, d'éclairages paysagers solaires et de poteaux intégrés solaires. La qualité supérieure est garantie par une capacité de conception industrielle exceptionnelle et un principe de design innovant et concis."
+        },
+        "work-descreption": {
+            "heading": "Engagé pour un avenir durable",
+            "paragraph-1": "Nous ne faisons aucun compromis sur la qualité; nous nous engageons à offrir des éclairages solaires de haute qualité qui valent leur coût.",
+            "paragraph-2": "Nous avons conçu et construit nos produits pour une durée de vie de dix ans, et ils sont assortis d'une garantie de cinq à dix ans. Qu'il fasse moins 40 degrés en Russie ou jusqu'à 70 degrés à Dubaï, en Arabie Saoudite ou au Koweït, nos luminaires fonctionneront et performeront de manière excellente.",
+            "values": {
+                "one": "Nous concevons",
+                "two": "Construire",
+                "three": "Haute qualité",
+                "four": "Solutions solaires"
+            },
+            "imageAlt": "Cellule solaire"
+        }
+    },
+    "contacts": {
+        "landing": {
+            "heading": "Coordonnées de Spica Solar Lighting"
+        },
+        "office-details": {
+            "heading": "Détails du bureau en Chine",
+            "email": {
+                "heading": "E-mail",
+                "paragraph": "Nous répondrons sous 2 jours ouvrables",
+                "value": "sales@spicasolarlighting.com"
+            },
+            "phone": {
+                "heading": "Téléphone",
+                "paragraph": "Nous sommes disponibles du lundi au vendredi de 8h à 17h",
+                "value": "(+86) 13610464745"
+            },
+            "address": {
+                "heading": "Siège",
+                "paragraph": "Visitez-nous dans notre bureau",
+                "value": "3F, No. 1-4# Parc industriel de Tongfukang, district de Baoan, Shenzhen, Chine"
+            },
+            "imagesAlt": {
+                "email": "courriel",
+                "phone": "téléphone",
+                "location": "emplacement",
+                "map": "carte"
+            }
+        }
+    },
+    "contac-us-form": {
+        "heading": "Contactez-nous",
+        "sub-heading": "Nous sommes là pour vous aider à faire le premier pas vers un choix plus écologique.",
+        "full-name": "Nom complet",
+        "email": "E-mail",
+        "next": "Suivant",
+        "message-form": {
+            "enter-otp": "Entrez le code OTP que nous avons envoyé à votre mail",
+            "edit": "Éditer",
+            "subject": "Sujet",
+            "message": "Message",
+            "cancel": "Annuler",
+            "submit": "Envoyer"
+        }
+    },
+    "categories": {
+        "landing": {
+            "heading": "Catégories d'éclairage solaire Spica"
+        },
+        "sidebar": {
+            "categories": "Catégories",
+            "all-categories": "Toutes les Catégories"
+        },
+        "show-more": "Voir plus",
+        "sort-by": "Trier par"
+    },
+    "projects": {
+        "landing": {
+            "heading": "Nos Projets"
+        },
+        "learn-more": "En savoir plus"
+    },
+    "project": {
+        "descreption": "Notre engagement en faveur de l'énergie verte ouvre la voie à une planète plus propre et plus saine. Rejoignez-nous dans un voyage vers un avenir où les sources d'énergie propres et renouvelables transforment notre façon de nourrir nos vies."
+    },
+    "product": {
+        "info": {
+            "flux": "Flux lumineux",
+            "lumens": "Lumens",
+            "producer": "PRODUCTEUR",
+            "category": "CATÉGORIE",
+            "download": "Télécharger la fiche technique"
+        },
+        "bread-crumb": {
+            "home": "Accueil",
+            "category": "Catégorie"
+        },
+        "product-info": "Infos produit",
+        "features": "Caractéristiques principales",
+        "led-luminare": {
+            "heading": "Luminaire LED",
+            "model": "Modèle",
+            "power": "Puissance",
+            "ler": "Efficacité Réelle du Luminaire (LER)",
+            "flux": "Flux Lumineux *(lm)",
+            "light": "Répartition de la Lumière",
+            "cct": "Température de Couleur Corrélée",
+            "lcm": "Fabricant de Puces LED",
+            "watt": "Puissance",
+            "size": "Taille"
+        },
+        "solar-module": {
+            "heading": "Module Solaire",
+            "brand": "Technologie/Marque",
+            "power": "Puissance (W)",
+            "voltage": "Tension (V)",
+            "lifespan": "Durée de vie"
+        },
+        "remarks": {
+            "heading": "Remarques",
+            "pole-body": "Corps de mât",
+            "pole-height": "Hauteur du mât",
+            "perday": "Éclairage par jour",
+            "rainy": "Jour de pluie",
+            "mip": "Protection contre les impacts mécaniques",
+            "temperature": "Température de fonctionnement",
+            "humadity": "Humidité maximale de l'air",
+            "warranty": "Garantie",
+            "ip": "Indice de protection (IP)"
+        },
+        "battery": {
+            "heading": "Batterie",
+            "location": "Emplacement",
+            "tect": "Technologie",
+            "capacity": "Capacité (Wh)",
+            "volt": "Tension nominale",
+            "lifespan": "Durée de vie",
+            "cancel": "Annuler"
+        }
+    },
+    "datasheet": {
+        "step-one": {
+            "heading": "Remplissez vos données pour télécharger",
+            "name": "Votre nom",
+            "email": "Votre e-mail",
+            "download": "Télécharger la fiche technique"
+        },
+        "step-two": {
+            "heading": "Entrez le OTP envoyé à vous",
+            "subheading": "Nous avons envoyé un OTP à votre e-mail",
+            "reason": "pour vérifier vos données",
+            "confirm": "Confirmer",
+            "resend": "Renvoyer le OTP",
+            "edit": "Modifier",
+            "cancel": "Annuler"
+        },
+        "step-three": {
+            "success": "Votre e-mail est vérifié",
+            "home": "Retour à l'accueil",
+            "open": "Ouvrir la fiche technique",
+            "close": "Fermer"
+        }
+    },
+    "search": {
+        "no-products": "Aucun produit trouvé. Consultez nos projets ou blogs. Cliquez sur Enter."
+    },
+    "search-page": {
+        "heading": "Résultats de Recherche",
+        "view": {
+            "all": "Tous",
+            "products": "Produits",
+            "projects": "Projets",
+            "blogs": "Blogs"
+        },
+        "notfound": {
+            "products": "Aucun produit trouvé",
+            "projects": "Aucun projet trouvé",
+            "blogs": "Aucun blog trouvé"
+        },
+        "more": "Afficher Plus"
+    },
+    "blogs": {
+        "heading": "Blog sur l'Éclairage Solaire Spica",
+        "more": "Afficher Plus"
+    },
+    "subscribe": {
+        "step1": {
+            "heading": "Votre Source pour les Mises à Jour sur l'Éclairage Solaire",
+            "name": "Nom",
+            "email": "E-mail",
+            "get": "Entrer en Contact"
+        },
+        "step2": {
+            "heading": "Vérifiez Votre Identité à l'Aide de l'OTP Envoyé par E-mail",
+            "sub": "S'abonner"
+        }
+    }
+}

@@ -1,0 +1,297 @@
+{
+    "landingbg": {
+        "imagesAlt": {
+            "one": "Sollar Cell Image 1",
+            "two": "Sollar Cell Image 2",
+            "three": "Sollar Cell Image 3",
+            "four": "Sollar Cell Image 4"
+        }
+    },
+    "home": {
+        "landing": {
+            "heading": "The Future of Solar Lighting",
+            "description": "Our dedication to solar lighting solutions is leading the way to a cleaner, healthier world. Join us in advancing toward a future where solar-powered lights revolutionize the way we illuminate our lives and environments.",
+            "see-our-products": "See our products",
+            "contact-us": "Contact Us"
+        },
+        "about": {
+            "heading": "About us",
+            "paragraph": "Spica Solar Lighting is a premier manufacturer of high-quality solar-powered luminaires. We provide robust, reliable solar lighting solutions using top-quality components. Our products are designed for 8-10 years of operation and come with a 5-10 year warranty. They perform excellently in extreme temperatures, from -40°C in Russia to 70°C in the Middle East. Our solar modules can retrofit existing street lighting poles and are suitable for traffic signals and camera poles.",
+            "read-more": "Read more"
+        },
+        "innovations": {
+            "heading": "Our Innovations",
+            "arr": {
+                "one": {
+                    "heading": "Up to 10 Years Without Maintenance",
+                    "paragraph": "This is dummy text This is dummy textThis is dummy textThis is dummy textThis is dummy textThis is dummy textThis is dummy textThis is dummy text"
+                },
+                "two": {
+                    "heading": "Plug & Play",
+                    "paragraph": "This is dummy textThis is dummy textThis is dummy textThis is dummy textThis is dummy textThis is dummy textThis is dummy textThis is dummy text"
+                },
+                "three": {
+                    "heading": "Extreme Temperatures Resistance",
+                    "paragraph": "This is dummy text This is dummy textThis is dummy textThis is dummy textThis is dummy textThis is dummy textThis is dummy textThis is dummy text"
+                },
+                "four": {
+                    "heading": "UP To 7 Rainy Day",
+                    "paragraph": "This is dummy text This is dummy textThis is dummy textThis is dummy textThis is dummy textThis is dummy textThis is dummy textThis is dummy text"
+                },
+                "five": {
+                    "heading": "Wireless Connectivity",
+                    "paragraph": "This is dummy text This is dummy textThis is dummy textThis is dummy textThis is dummy textThis is dummy textThis is dummy textThis is dummy text"
+                },
+                "six": {
+                    "heading": "Patent Tech",
+                    "paragraph": "This is dummy text This is dummy textThis is dummy textThis is dummy textThis is dummy textThis is dummy textThis is dummy textThis is dummy text"
+                }
+            }
+        },
+        "latest-products": {
+            "heading": "Our Latest Products",
+            "related": "Related Products",
+            "sub-heading": "Some our newest products that arrived in the past few weeks.",
+            "see-product": "See Product"
+        },
+        "projects": {
+            "heading": "Our Projects",
+            "sub-heading": "Thousands of Solar-powered luminaires supplied Globally."
+        },
+        "blog": {
+            "heading": "Blog",
+            "see-all": "See All",
+            "spica-solar": "Spica Solar Lighting",
+            "min-read": "Minutes Read",
+            "tags": {
+                "1": "Solar Power",
+                "2": "Solutions",
+                "3": "Power"
+            }
+        }
+    },
+    "layout": {
+        "nav": {
+            "home": "Home",
+            "about": "About Us",
+            "projects": "Projects",
+            "categories": "Categories",
+            "blog": "Blog",
+            "contact-us": "Contact Us",
+            "all-categories": "All"
+        },
+        "desc": "Stay in the loop with our Green Horizon newsletter, where we deliver bite-sized insights into the latest green energy solutions.",
+        "rights": "© 2024 Spica solar Lighting. All rights reserved.",
+        "imgsAlt": {
+            "logo": "Logo",
+            "search": "Search icon",
+            "change-lang": "Change Language",
+            "en": "USA Flag",
+            "de": "Germany Flag",
+            "es": "Spain Flag",
+            "fr": "France Flag"
+        },
+        "pages": "Pages"
+    },
+    "about": {
+        "landing": {
+            "heading": "About Spica Solar Lighting",
+            "paragraph": "Spica Solar Lighting is a leading manufacturer and supplier of high-quality Solar powered lighting luminaires. We dedicated to the design, production, and Supply of High-Quality outdoor solar street lighting, solar landscape lighting, and solar integrated poles. the superior quality by outstanding industrial design ability and innovative, concise design principle."
+        },
+        "work-descreption": {
+            "heading": "Committed to a sustainable future",
+            "paragraph-1": "we don’t compromise quality; we are committed to offering high-quality Solar lighting that will be for its cost.",
+            "paragraph-2": "We designed and built our products to meet ten years of operation, and it comes with five to ten years of warranty, whether it is minus 40 degrees in Russia or up to 70 degrees in Dubai, Saudi, or Kuwait, our luminaires will work and perform excellently.",
+            "values": {
+                "one": "We design",
+                "two": "Build",
+                "three": "High quality",
+                "four": "Solar Solutions"
+            },
+            "imageAlt": "Solar Cell"
+        }
+    },
+    "contacts": {
+        "landing": {
+            "heading": "Spica Solar Lighting Contact Details"
+        },
+        "office-details": {
+            "heading": "China Office Details",
+            "email": {
+                "heading": "Email",
+                "paragraph": "We will reply within 2 working days",
+                "value": "sales@spicasolarlighting.com"
+            },
+            "phone": {
+                "heading": "Phone",
+                "paragraph": "We are available Monday-Friday from 8 AM until 5 PM",
+                "value": "(+86) 13610464745"
+            },
+            "address": {
+                "heading": "HQ Office",
+                "paragraph": "Visit us in our office",
+                "value": "3F,No. 1-4# Tongfukang industry park, Baoan district, Shenzhen, China"
+            },
+            "imagesAlt": {
+                "email": "email",
+                "phone": "phone",
+                "location": "location",
+                "map": "map"
+            }
+        }
+    },
+    "contac-us-form": {
+        "heading": "Contact us",
+        "sub-heading": "We are here to help you make a first move to greener choice.",
+        "full-name": "Full Name",
+        "email": "E-mail",
+        "next": "Next",
+        "message-form": {
+            "enter-otp": "Enter OTP we’ve sent to your mail",
+            "edit": "Edit",
+            "subject": "Subject",
+            "message": "Messsage",
+            "cancel": "Cancel",
+            "submit": "Submit"
+        }
+    },
+    "categories": {
+        "landing": {
+            "heading": "Spica Solar Lighting Categories"
+        },
+        "sidebar": {
+            "categories": "Categories",
+            "all-categories": "All Categories"
+        },
+        "show-more": "Show more",
+        "sort-by": "Sort By"
+    },
+    "projects": {
+        "landing": {
+            "heading": "Our Projects"
+        },
+        "learn-more": "Learn More"
+    },
+    "project": {
+        "descreption": "Our commitment to green energy is paving the way for a cleaner, healthier planet. Join us on a journey towards a future where clean. renewable energy sources transform the way we power our lives."
+    },
+    "product": {
+        "info": {
+            "flux": "Luminous Flux",
+            "lumens": "Lumens",
+            "producer": "PRODUCER",
+            "category": "CATEGORY",
+            "download": "Download Data Sheet"
+        },
+        "bread-crumb": {
+            "home": "Homer",
+            "category": "Category"
+        },
+        "product-info": "Product Info",
+        "features": "Key Features",
+        "led-luminare": {
+            "heading": "Led Luminare",
+            "model": "Model",
+            "power": "Power",
+            "ler": "Real Luminaire Efficacy (LER)",
+            "flux": "Luminous Flux *(lm)",
+            "light": "Light Distribution",
+            "cct": "Correlated Color Temperature",
+            "lcm": "LED Chip Manufacturer",
+            "watt": "Wattage",
+            "size": "Size"
+        },
+        "solar-module": {
+            "heading": "Solar Module",
+            "brand": "Tech/Brand",
+            "power": "Power (W)",
+            "voltage": "Voltage (V)",
+            "lifespan": "Life Span"
+        },
+        "remarks": {
+            "heading": "Remarks",
+            "pole-body": "Pole Body",
+            "pole-height": "Pole Hight",
+            "perday": "Lighting up per day",
+            "rainy": "Rainy day",
+            "ip": "IP Rating",
+            "mip": "Mechanical impact protection",
+            "temperature": "Operating temperature",
+            "humadity": "Maximum air humidity",
+            "warranty": "Warranty"
+        },
+        "battery": {
+            "heading": "Battery",
+            "location": "Location",
+            "tect": "Technology",
+            "capacity": "Capacity (Wh)",
+            "volt": "Nominal voltage",
+            "lifespan": "Lifespan"
+        }
+    },
+    "datasheet": {
+        "step-one": {
+            "heading": "Fill your data to download",
+            "name": "Your name",
+            "email": "Your Email",
+            "download": "Download Data Sheet",
+            "cancel": "Cancel"
+        },
+        "step-two": {
+            "heading": "Enter OTP sent to you",
+            "subheading": "We’ve sent OTP to your mail",
+            "reason": "to verify your data",
+            "confirm": "Confirm",
+            "resend": "Resend OTP",
+            "edit": "Edit",
+            "cancel": "Cancel"
+        },
+        "step-three": {
+            "success": "Your E-mail Is Verified",
+            "home": "Back To Home",
+            "open": "Open Data Sheet",
+            "close": "Close"
+        }
+    },
+    "search": {
+        "no-products": "No products found. Check our projects or blogs. Click enter."
+    },
+    "search-page": {
+        "heading": "Search Results",
+        "view": {
+            "all": "All",
+            "products": "Products",
+            "projects": "Projects",
+            "blogs": "Blogs"
+        },
+        "notfound": {
+            "products": "No Products found",
+            "projects": "No Projects found",
+            "blogs": "No Blogs found"
+        },
+        "more": "Show More"
+    },
+    "blogs": {
+        "heading": "Spica Solar Lighting Blog",
+        "more": "Show More"
+    },
+    "subscribe": {
+        "step1": {
+            "heading": "Your Source For Solar Lighting Updates",
+            "name": "Name",
+            "email": "E-mail",
+            "get": "Get In Touch"
+        },
+        "step2": {
+            "heading": "Verify Your Identity Using OTP Sent Via Email",
+            "sub": "Subscribe"
+        }
+    },
+    "blog": {
+        "tags": {
+            "1": "Solar Power",
+            "2": "Solutions",
+            "3": "Power"
+        }
+    }
+}

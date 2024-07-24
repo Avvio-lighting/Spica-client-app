@@ -1,0 +1,251 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+}
+
+@layer utilities {
+  .button {
+    @apply relative flex h-10 w-36 items-center justify-center rounded-[200px] bg-emerald px-3 py-5 text-sm text-white duration-150 hover:bg-emerald/70;
+  }
+  .negative-button {
+    @apply relative flex h-10 w-36 items-center justify-center rounded-[200px] border-[1px] border-solid border-emerald px-3 py-5 text-sm duration-150 hover:bg-emerald hover:text-white;
+  }
+  .form-input {
+    @apply w-full rounded-[225px] border-[1px] border-solid border-dolphine p-3 outline-none ring-0 focus:ring-1 focus:ring-charcoal;
+  }
+  .form-error {
+    @apply px-4 text-sm font-semibold text-error;
+  }
+  .form-label {
+    @apply px-4 text-sm font-semibold;
+  }
+  .form-button {
+    @apply relative mt-5 flex h-12 w-[100%] items-center justify-center rounded-[200px] bg-emerald p-3 text-sm text-white duration-150 hover:bg-emerald/70;
+  }
+  .form-text-area {
+    @apply h-40 w-full resize-none rounded-lg border-[1px] border-solid border-dolphine p-3 outline-none ring-0 focus:ring-1 focus:ring-charcoal;
+  }
+  .animation-delay-75 {
+    animation-delay: 75ms;
+  }
+  .animation-delay-150 {
+    animation-delay: 150ms;
+  }
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+  .animation-delay-250 {
+    animation-delay: 250ms;
+  }
+  .animation-delay-300 {
+    animation-delay: 300ms;
+  }
+  /* Lines */
+  .lines {
+    position: absolute;
+    width: 90vw;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+
+    background: radial-gradient(
+      55.83% 55.83% at 28.41% 18.08%,
+      rgba(16, 185, 129, 0) 10.2%,
+      rgba(190, 242, 100, 0.34) 70.65%,
+      rgba(190, 242, 100, 0.16) 100%
+    );
+  }
+
+  .otp-input {
+    appearance: textfield;
+  }
+
+  .otp-input::-webkit-outer-spin-button,
+  .otp-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* For Firefox */
+  .otp-input[type='tel'] {
+    appearance: textfield;
+  }
+}
+
+body {
+  --sb-track-color: #edffee;
+  --sb-thumb-color: #48c352;
+  --sb-size: 7px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 16px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 16px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
+}
+
+.custom-scroll {
+  --sb-track-color: #edffee;
+  --sb-thumb-color: #48c352;
+  --sb-size: 7px;
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 16px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 16px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  .custom-scroll {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
+}
+
+.custom-scroll-right {
+  --sb-track-color: #edffee;
+  --sb-thumb-color: #48c352;
+  --sb-size: 7px;
+  overflow-y: scroll;
+}
+
+.custom-scroll-right::-webkit-scrollbar {
+  width: var(--sb-size);
+  height: 0; /* Hides the horizontal scrollbar */
+}
+
+.custom-scroll-right::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 16px;
+}
+
+.custom-scroll-right::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 16px;
+}
+
+.custom-scroll-right {
+  scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  scrollbar-width: thin;
+  direction: ltr; /* Ensures scrollbar is on the right */
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  .custom-scroll-right {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
+}
+
+.custom-scroll-left {
+  --sb-track-color: #edffee;
+  --sb-thumb-color: #48c352;
+  --sb-size: 7px;
+  overflow-y: scroll;
+  direction: rtl; /* Ensures scrollbar is on the left */
+}
+
+.custom-scroll-left::-webkit-scrollbar {
+  width: var(--sb-size);
+  height: 0; /* Hides the horizontal scrollbar */
+}
+
+.custom-scroll-left::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 16px;
+}
+
+.custom-scroll-left::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 16px;
+}
+
+.custom-scroll-left {
+  scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  scrollbar-width: thin;
+  direction: rtl; /* Ensures scrollbar is on the left */
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  .custom-scroll-left {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
+}
+.arrow {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: opacity 0.3s ease;
+}
+
+.arrow--left {
+  left: -10px;
+}
+
+.arrow--right {
+  right: -10px;
+}
+
+.arrow--disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.custom-scroll-m {
+  --sb-track-color: #edffee;
+  --sb-thumb-color: #48c352;
+  --sb-size: 7px;
+}
+
+.custom-scroll-m::-webkit-scrollbar {
+  width: var(--sb-size);
+  margin: 20px;
+}
+
+.custom-scroll-m::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 16px;
+  margin: 20px;
+}
+
+.custom-scroll-m::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 16px;
+  margin: 20px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  .custom-scroll-m {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
+}
