@@ -1,8 +1,8 @@
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 
-export const useProductsNavigation = () => {
+export const useProductsNavigation = (isRelated) => {
   const productsRef = useRef(null);
-
+  useEffect(() => {}, [isRelated]);
   // scrollers handlers
   const scrollLeft = () => {
     if (productsRef.current) {

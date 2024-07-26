@@ -20,7 +20,6 @@ export async function getProjects(page, limit) {
     const projects = await response.json();
     return { projs: projects.docs, len: projects.length };
   } catch (err) {
-    console.log(err);
     throw err;
   }
 }
@@ -38,7 +37,6 @@ export async function getProject(id) {
     const project = await response.json();
     return project.data;
   } catch (err) {
-    console.log(err);
     throw err;
   }
 }
@@ -63,7 +61,6 @@ export async function search(page, limit, search) {
     const projects = await response.json();
     return { projs: projects.docs, len: projects.length };
   } catch (err) {
-    console.log(err);
     throw err;
   }
 }

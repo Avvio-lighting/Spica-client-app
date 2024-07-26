@@ -4,11 +4,7 @@ import rgbDataURL from '@/util/rgbDataUrl';
 import { getTranslations } from 'next-intl/server';
 import Image from 'next/image';
 import Link from 'next/link';
-const ProductsContainer = async ({
-  locale,
-  products = null,
-  activeId = null,
-}) => {
+const ProductsContainer = async ({ locale, products = null }) => {
   if (!products) {
     const { prods } = await getRandomProducts();
     products = prods;
@@ -17,60 +13,57 @@ const ProductsContainer = async ({
   const t = await getTranslations('home');
   return (
     <>
-      {products.map((product) =>
-        activeId === product._id ? null : (
-          <article className={style.article} key={product._id}>
-            <div className={style.imageContainer}>
-              <Image
-                src={
-                  product.mainImage
-                    ? API_BASE_URL + product.mainImage
-                    : '/prods/prod.png'
-                }
-                alt={product.name}
-                fill
-                style={{ objectFit: 'contain' }}
-                className='rounded-lg'
-                sizes='90%'
-                placeholder='blur'
-                blurDataURL={rgbDataURL(237, 255, 238)}
-              />
+      {products.map((product) => (
+        <article className={style.article} key={product._id}>
+          <div className={style.imageContainer}>
+            <Image
+              src={
+                product.mainImage
+                  ? API_BASE_URL + product.mainImage
+                  : '/prods/prod.png'
+              }
+              alt={product.name}
+              fill
+              style={{ objectFit: 'contain' }}
+              className='rounded-lg'
+              sizes='90%'
+              placeholder='blur'
+              blurDataURL={rgbDataURL(237, 255, 238)}
+            />
+          </div>
+
+          <div className={style.card}>
+            <div className={style.textContainer}>
+              <h3 className={style.title}>{product.name[locale]}</h3>
+              <p className={style.flux}>
+                Luminous Flux - {product['Luminous Flux *(lm)']}
+                {product['LED LUMINAIRE']['Luminous Flux *(lm)'][0] + ' '}
+                {product['LED LUMINAIRE']['Luminous Flux *(lm)'].length > 1 &&
+                  '- ' +
+                    product['LED LUMINAIRE']['Luminous Flux *(lm)'][
+                      product['LED LUMINAIRE']['Luminous Flux *(lm)'].length - 1
+                    ]}
+              </p>
             </div>
 
-            <div className={style.card}>
-              <div className={style.textContainer}>
-                <h3 className={style.title}>{product.name[locale]}</h3>
-                <p className={style.flux}>
-                  Luminous Flux - {product['Luminous Flux *(lm)']}
-                  {product['LED LUMINAIRE']['Luminous Flux *(lm)'][0] + ' '}
-                  {product['LED LUMINAIRE']['Luminous Flux *(lm)'].length > 1 &&
-                    '- ' +
-                      product['LED LUMINAIRE']['Luminous Flux *(lm)'][
-                        product['LED LUMINAIRE']['Luminous Flux *(lm)'].length -
-                          1
-                      ]}
-                </p>
-              </div>
-
-              <div className={style.control}>
-                <Link
-                  href={`/products/${product._id}`}
-                  className='relative h-8 w-8'
-                >
-                  <Image
-                    src='/prods/see-product.svg'
-                    alt={t('latest-products.see-product')}
-                    fill
-                    style={{ objectFit: 'contain' }}
-                    placeholder='blur'
-                    blurDataURL={rgbDataURL(237, 255, 238)}
-                  />
-                </Link>
-              </div>
+            <div className={style.control}>
+              <Link
+                href={`/products/${product._id}`}
+                className='relative h-8 w-8'
+              >
+                <Image
+                  src='/prods/see-product.svg'
+                  alt={t('latest-products.see-product')}
+                  fill
+                  style={{ objectFit: 'contain' }}
+                  placeholder='blur'
+                  blurDataURL={rgbDataURL(237, 255, 238)}
+                />
+              </Link>
             </div>
-          </article>
-        )
-      )}
+          </div>
+        </article>
+      ))}
     </>
   );
 };

@@ -18,8 +18,24 @@ export const useSlider = (product) => {
     }
   }, [currentIndex]);
   useEffect(() => {
-    setImages([...product.images]);
-  }, [product.images]);
+    const rearrangeImages = (images, mainImage) => {
+      return images.reduce(
+        (acc, image) => {
+          if (image === mainImage) {
+            acc.main.push(image);
+          } else {
+            acc.rest.push(image);
+          }
+          return acc;
+        },
+        { main: [], rest: [] }
+      );
+    };
+
+    const { main, rest } = rearrangeImages(product.images, product.mainImage);
+    setImages([...main, ...rest]);
+  }, [product.images, product.mainImage]);
+
   useEffect(() => {}, [images.length]);
 
   const handlePrevClick = () => {

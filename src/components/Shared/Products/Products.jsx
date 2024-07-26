@@ -5,16 +5,21 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { useProductsNavigation } from './hooks';
 
-const Products = ({ children, isRelated=false }) => {
+const Products = ({ children, isRelated = false }) => {
   const t = useTranslations('home');
-  const { productsRef, scrollLeft, scrollRight } = useProductsNavigation();
+  const { productsRef, scrollLeft, scrollRight } =
+    useProductsNavigation(isRelated);
 
   return (
     <section className={style.section}>
       <div className={style.container}>
         <div className={style.textContainer}>
           <div className={style.headingContainer}>
-            <h2 className={style.heading}>{!isRelated ? t('latest-products.heading') : t('latest-products.related')}</h2>
+            <h2 className={style.heading}>
+              {!isRelated
+                ? t('latest-products.heading')
+                : t('latest-products.related')}
+            </h2>
 
             <div className={style.controls}>
               <button onClick={scrollLeft}>
@@ -25,9 +30,11 @@ const Products = ({ children, isRelated=false }) => {
               </button>
             </div>
           </div>
-        {!isRelated &&   <h3 className={style.subHeading}>
-            {t('latest-products.sub-heading')}
-          </h3>}
+          {!isRelated && (
+            <h3 className={style.subHeading}>
+              {t('latest-products.sub-heading')}
+            </h3>
+          )}
         </div>
 
         <div ref={productsRef} className={style.productsContainer}>

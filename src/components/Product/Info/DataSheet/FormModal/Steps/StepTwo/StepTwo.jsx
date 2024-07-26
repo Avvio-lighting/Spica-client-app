@@ -19,7 +19,6 @@ const StepTwo = ({ product, setStep, close }) => {
       setStep((prevStep) => prevStep + 1);
     } else {
       setErrors(result);
-      console.log(errors);
     }
   };
 

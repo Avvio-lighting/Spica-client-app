@@ -8,6 +8,9 @@ import rgbDataURL from '@/util/rgbDataUrl';
 
 const Footer = async ({ locale }) => {
   const categories = await getCategories(1, 6);
+  categories.sort((a, b) =>
+    a.text['en'].localeCompare(b.text['en'])
+  );
   const t = await getTranslations('layout');
   return (
     <footer className={style.footer}>

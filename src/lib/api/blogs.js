@@ -20,7 +20,6 @@ export async function getBlogs(page, limit) {
     const blogs = await response.json();
     return { blogs: blogs.docs, len: blogs.length };
   } catch (err) {
-    console.log(err);
     throw err;
   }
 }
@@ -41,7 +40,6 @@ export async function getRandomBlogs() {
     const blogs = await response.json();
     return { blogs: blogs.randomDocs, len: blogs.length };
   } catch (err) {
-    console.log(err);
     throw err;
   }
 }
@@ -66,7 +64,6 @@ export async function getBlog(id) {
     const blog = await response.json();
     return blog.data;
   } catch (err) {
-    console.log(err);
     throw err;
   }
 }
@@ -91,7 +88,6 @@ export async function search(page, limit, search) {
     const blogs = await response.json();
     return { blogs: blogs.docs, len: blogs.length };
   } catch (err) {
-    console.log(err);
     throw err;
   }
 }

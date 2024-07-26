@@ -36,7 +36,7 @@ export async function generateMetadata({ params }) {
       siteName: 'Spica',
       images: [
         {
-          url: `${APP_BASE_URL}/logo.svg`,
+          url: `${APP_BASE_URL}/blogs/blog.png`,
           width: 800,
           height: 600,
         },
@@ -51,14 +51,13 @@ export async function generateMetadata({ params }) {
         ? 'descreption'
         : project.description[params.locale],
       creator: '@spica',
-      images: [`${APP_BASE_URL}/logo.svg`],
+      images: [`${APP_BASE_URL}/blogs/blog.png`],
     },
   };
 }
 
 const Projects = ({ params }) => {
   const locale = params.locale;
-  console.log(locale);
   return (
     <div>
       <Project id={params.id} locale={locale} />

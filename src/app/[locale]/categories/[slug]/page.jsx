@@ -35,7 +35,7 @@ export async function generateMetadata({ params }) {
       siteName: 'Spica',
       images: [
         {
-          url: `${APP_BASE_URL}/logo.svg`,
+          url: `${APP_BASE_URL}/blogs/blog.png`,
           width: 800,
           height: 600,
         },
@@ -49,7 +49,7 @@ export async function generateMetadata({ params }) {
       description:
         "Discover Spica Solar Lighting's high-quality solar powered lighting luminaires. We specialize in outdoor solar street lighting, solar landscape lighting solutions, and solar integrated poles, known for superior quality and innovative design.",
       creator: '@spica',
-      images: [`${APP_BASE_URL}/logo.svg`],
+      images: [`${APP_BASE_URL}/blogs/blog.png`],
     },
   };
 }

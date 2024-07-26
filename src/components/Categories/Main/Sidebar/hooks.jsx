@@ -36,13 +36,16 @@ export const useSidebar = (locale) => {
         const categoryMap = new Map();
         prev.forEach((cat) => categoryMap.set(cat.text['en'], cat));
         cats.forEach((cat) => categoryMap.set(cat.text['en'], cat));
-        return Array.from(categoryMap.values());
+        const mergedCategories = Array.from(categoryMap.values());
+        mergedCategories.sort((a, b) =>
+          a.text['en'].localeCompare(b.text['en'])
+        );
+        return mergedCategories;
       });
     } catch (error) {
       console.error('Error fetching categories:', error);
     }
   };
-
   useEffect(() => {
     if (canFetchMore) {
       fetchCategories();

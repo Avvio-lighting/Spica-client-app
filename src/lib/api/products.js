@@ -6,12 +6,18 @@ export async function getProducts(page, limit, category = null, sort = null) {
   query += sort ? `&sort=${sort}` : ``;
 
   try {
-    const response = await fetch(`${API_BASE_URL}/api/v1/products?${query}`, {
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/json',
+    const response = await fetch(
+      `${API_BASE_URL}/api/v1/products?${query}`,
+      {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
       },
-    });
+      {
+        cache: 'no-store',
+      }
+    );
     if (response.status === 404) {
       return { prods: null, len: 0 };
     } else if (!response.ok && response.status !== 404) {
@@ -21,7 +27,6 @@ export async function getProducts(page, limit, category = null, sort = null) {
     const products = await response.json();
     return { prods: products.docs, len: products.length };
   } catch (err) {
-    console.log(err);
     throw err;
   }
 }
@@ -41,7 +46,6 @@ export async function getRandomProducts() {
     const products = await response.json();
     return { prods: products.randomDocs, len: products.randomDocs.length };
   } catch (err) {
-    console.log(err);
     throw err;
   }
 }
@@ -64,7 +68,6 @@ export async function getCategories(page, limit) {
     const products = await response.json();
     return products.categories;
   } catch (err) {
-    console.log(err);
     throw err;
   }
 }
@@ -88,7 +91,6 @@ export async function getProduct(id) {
     const products = await response.json();
     return products.data;
   } catch (err) {
-    console.log(err);
     throw err;
   }
 }
@@ -113,7 +115,6 @@ export async function search(page, limit, search) {
     const products = await response.json();
     return { prods: products.docs, len: products.length };
   } catch (err) {
-    console.log(err);
     throw err;
   }
 }

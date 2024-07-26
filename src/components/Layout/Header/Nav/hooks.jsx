@@ -7,6 +7,7 @@ export const useCategories = () => {
 
   const fetchCategories = async () => {
     const cats = await getCategories(1, 6);
+    cats.sort((a, b) => a.text['en'].localeCompare(b.text['en']));
     setCategories(cats);
   };
 

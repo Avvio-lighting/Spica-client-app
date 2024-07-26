@@ -14,7 +14,6 @@ export async function requestOtp(body) {
     const res = await response.json();
     return res.token;
   } catch (err) {
-    console.log(err);
     throw err;
   }
 }
@@ -34,7 +33,6 @@ export async function contactForm(body) {
     }
     return;
   } catch (err) {
-    console.log(err);
     throw err;
   }
 }
@@ -54,7 +52,6 @@ export async function dataSheet(body) {
     }
     return;
   } catch (err) {
-    console.log(err);
     throw err;
   }
 }
@@ -74,7 +71,6 @@ export async function subscribe(body) {
     }
     return;
   } catch (err) {
-    console.log(err);
     throw err;
   }
 }

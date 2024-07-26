@@ -25,7 +25,6 @@ export default async function requestOTP(prevState, formData) {
     const token = await requestOtp(validatedFields.data);
     cookies().set('token', token, cookieOptions);
   } catch (error) {
-    console.log(error);
     return {
       errors: {
         api: 'Something went wrong. Please try again.',
